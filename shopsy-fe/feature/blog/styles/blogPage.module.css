@@ -1,0 +1,30 @@
+.boxesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.boxesContainer > div {
+  width: 30%;
+  margin-bottom: 32px;
+}
+.boxesContainer > div:not(:nth-child(3n)) {
+  margin-right: 32px;
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  padding: 0px;
+}
+@media screen and (max-width: 1100px) {
+  .boxesContainer {
+    flex-direction: column;
+  }
+  .boxesContainer > div {
+    flex-basis: unset;
+    max-width: 300px;
+    width: 100%;
+    margin: 0px auto 32px auto !important;
+  }
+}

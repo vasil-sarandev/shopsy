@@ -1,0 +1,18 @@
+.venueTitle,
+.announcement {
+  padding: 0px 10px;
+}
+.venueTitle {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--primary);
+}
+.announcement {
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--font-secondary);
+}
+.wrapper {
+  max-width: var(--restrict-width);
+  margin: 0 auto;
+}

@@ -1,0 +1,42 @@
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 25px;
+}
+.heading {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  margin: -10px 0px;
+}
+.hint {
+  text-align: center;
+  color: var(--font-secondary);
+  max-width: 650px;
+  margin: 0 auto;
+  margin-bottom: var(--gutter);
+}
+.cta {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 40px 10px;
+  }
+  .heading {
+    font-size: 14px;
+  }
+  .hint {
+    font-size: 14px;
+  }
+  .cta {
+    flex-direction: column;
+  }
+  .cta > div {
+    margin: 0 auto;
+  }
+}

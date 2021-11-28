@@ -1,0 +1,30 @@
+.mobile,
+.smallMobile {
+  display: none;
+}
+.categoryTitle {
+  padding: 10px 5px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  .mobile {
+    display: none;
+  }
+  .smallMobile {
+    display: block;
+  }
+}

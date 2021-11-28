@@ -1,0 +1,10 @@
+.title {
+  font-size: 28px;
+  font-weight: 900;
+  padding: 40px 0px;
+  text-align: center;
+}
+.featured,
+.categories {
+  padding-bottom: 40px;
+}

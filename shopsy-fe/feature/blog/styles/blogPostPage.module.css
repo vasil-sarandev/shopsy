@@ -1,0 +1,48 @@
+.credits {
+  font-size: 12px;
+  color: var(--font-secondary2);
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.content {
+  padding: 40px 0px;
+  color: var(--font);
+  font-family: var(--font-family-blog);
+  font-size: 17px;
+}
+.content h1,
+.content h2,
+.content h3,
+.content h3,
+.content h4 {
+  /* color: var(--cyan); */
+}
+.content blockquote {
+  width: 100%;
+  padding: 0px 30px;
+  border-left: 4px solid #32d590;
+  font-size: 24px;
+  color: var(--primary);
+}
+
+.content blockquote p {
+  margin: 0px !important;
+}
+
+.content ul li::marker {
+  font-weight: bold;
+  transform: scale(1.5);
+}
+.content ul li p {
+  margin: 2px 0px;
+}
+
+.content a {
+  color: var(--info);
+}
+.content img {
+  width: 100%;
+  max-width: 100%;
+}

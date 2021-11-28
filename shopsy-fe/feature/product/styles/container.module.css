@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container > div:first-child {
+  margin-right: var(--gutter);
+}
+.container > div {
+  flex: 1;
+}
+.productContainer {
+  padding-top: var(--gutter);
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-size: 24px;
+  color: var(--primary);
+  font-weight: bold;
+}
+.price {
+  margin-top: var(--gutter);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn {
+  margin-top: var(--gutter);
+  width: 360px;
+}
+.btn > button {
+  background: black !important;
+}
+.description {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--font-secondary2);
+  max-width: 360px;
+}
+
+@media screen and (max-width: 768px) {
+  .container > div:first-child {
+    margin-right: unset;
+  }
+  .container > div {
+    flex-basis: 100%;
+  }
+  .btn {
+    width: unset;
+  }
+  .description {
+    max-width: unset;
+  }
+}

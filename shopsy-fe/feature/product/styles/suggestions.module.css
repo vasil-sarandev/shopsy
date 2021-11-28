@@ -1,0 +1,27 @@
+.container {
+  margin: calc(2 * var(--gutter)) 200px;
+  flex-basis: 100% !important;
+}
+.suggestionsTitle {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--secondary);
+  margin-bottom: var(--gutter);
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    margin: calc(2 * var(--gutter)) 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    margin: calc(2 * var(--gutter)) 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    margin: calc(2 * var(--gutter)) 10px;
+  }
+}
